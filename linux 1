@@ -1,0 +1,118 @@
+1ans)
+Linux is an open-source Unix-like operating system-based family on the Linux kernel, and the OS kernel was first published on 17 September 1991 by Linus Torvalds. Typically, Linux is packaged as the Linux distribution, which contains the supporting libraries and system software and kernel, several of which are offered by the GNU Project. 
+Originally, Linux was designed for personal computers that were Intel x86 architecture-based, but it has since been moved to more environments than other operating systems.
+Including Android, Linux has the biggest installed base of every general-purpose operating system because of the control of the Linux-based Android over smartphones as of May 2022.
+However, Linux is used by just around 2.6% of desktop computers as of November 2022.
+Also, Linux executes on many embedded systems, i.e., devices whose OS is typically designed into the firmware and is extremely customized to the system.
+It includes spacecraft (Perseverance rover, Dragon crew capsule, and Falcon 9 rocket), automobiles (Toyota, Hyundai, Mercedes-Benz, Audi, and Tesla), televisions (LG and Samsung Smart TVs), video game consoles, smart home devices, automation controls, and routers.
+2nd ans)
+difference between Linux and Unix
+Key:Development
+Linux:Linux is open source and is developed by Linux community of developers.
+Unix:Unix was developed by AT&T Bell labs and is not open source.
+Key:Cost
+Linux:Linux is free to use.	
+Unix:Unix is licensed OS.
+Key:Supported File systems
+Linux:Ext2, Ext3, Ext4, Jfs, ReiserFS, Xfs, Btrfs, FAT, FAT32, NTFS.
+Unix:fs, gpfs, hfs, hfs+, ufs, xfs, zfs.
+Key:GUI
+Linux:Linux uses KDE and Gnome. Other GUI supported are LXDE, Xfce, Unity, Mate.
+Unix:Unix was initially a command based OS. Most of the unix distributions now have Gnome.
+Key:USAGE
+Linux:Linux is used in wide varieties from desktop, servers, smartphones to mainframes.
+Unix:Unix is mostly used on servers, workstations or PCs
+Key:EXAMPLE
+Linux:Ubuntu, Debian GNU, Arch Linux, etc.
+Unix:SunOS, Solaris, SCO UNIX, AIX, HP/UX, ULTRIX etc.
+3rd ans)
+Linux kernel is the core of the Linux-based operating systems. It is the core interface that handles the communication between the processes and the hardware. It is a bridge between the two, managing the resources as efficiently as possible. Linux kernel is a free, open-source, modular, monolithic, Unix-like operating system kernel. It can be inspected, modified, forked, and distributed by anyone without any copyright issues.
+Yes, it is completely legal to edit the Linux kernel since it is under General Public License – GNU. Linux kernel is an open-source project; it encourages people to edit, fix, and report.
+4th ans)
+LILO is an acronym for the LInux LOader and has been used to boot Linux on x86 systems for many years. Although GRUB is now the default boot loader, some users prefer to use LILO because it is more familiar to them and others use it out of necessity, since GRUB may have trouble booting some hardware.
+LILO stands for Linux Loader which is a bootstrap program. LILO is a code snippet which loads PC BIOS into the main memory at the time of starting the computer system. LILO handles the following tasks:
+-Locating Linux kernel
+-Identifying other supporting programs and loading them in the memory
+-Staring Kernel
+The selection of various kernel images and boot routines is supported by LILO. For this reason, LILO is known as boot manager.
+5th ans)
+Linux is one of popular version of UNIX operating System. It is open source as its source code is freely available. It is free to use. Linux was designed considering UNIX compatibility. Its functionality list is quite similar to that of UNIX.
+
+Components of Linux System
+Linux Operating System has primarily three components
+Kernel − Kernel is the core part of Linux. It is responsible for all major activities of this operating system. It consists of various modules and it interacts directly with the underlying hardware. Kernel provides the required abstraction to hide low level hardware details to system or application programs.
+System Library − System libraries are special functions or programs using which application programs or system utilities accesses Kernel's features.
+System Utility − System Utility programs are responsible to do specialized, individual level tasks.
+6th ans)
+Shells are an important part of any Linux user session. We are provided several different types of shells in Linux to accomplish tasks. Each shell has unique properties. Hence, there are many instances where one shell is better than the other for specific requirements.
+Different Types of Shells in Linux
+1. The Bourne Shell (sh)
+Developed at AT&T Bell Labs by Steve Bourne, the Bourne shell is regarded as the first UNIX shell ever. It is denoted as sh. It gained popularity due to its compact nature and high speeds of operation.
+
+This is what made it the default shell for Solaris OS. It is also used as the default shell for all Solaris system administration scripts. Start reading about shell scripting here.
+2. The GNU Bourne-Again Shell (bash)
+More popularly known as the Bash shell, the GNU Bourne-Again shell was designed to be compatible with the Bourne shell. It incorporates useful features from different types of shells in Linux such as Korn shell and C shell.
+3. The C Shell (csh)
+The C shell was created at the University of California by Bill Joy. It is denoted as csh. It was developed to include useful programming features like in-built support for arithmetic operations and a syntax similar to the C programming language.
+4. The Korn Shell (ksh)
+The Korn shell was developed at AT&T Bell Labs by David Korn, to improve the Bourne shell. It is denoted as ksh. The Korn shell is essentially a superset of the Bourne shell.
+
+Besides supporting everything that would be supported by the Bourne shell, it provides users with new functionalities. It allows in-built support for arithmetic operations while offereing interactive features which are similar to the C shell.
+7th ans)
+Swap space in Linux is used when the amount of physical memory (RAM) is full. If the system needs more memory resources and the RAM is full, inactive pages in memory are moved to the swap space. While swap space can help machines with a small amount of RAM, it should not be considered a replacement for more RAM. Swap space is located on hard drives, which have a slower access time than physical memory. Swap space can be a dedicated swap partition (recommended), a swap file, or a combination of swap partitions and swap files. Note that Btrfs does not support swap space.
+In years past, the recommended amount of swap space increased linearly with the amount of RAM in the system. However, modern systems often include hundreds of gigabytes of RAM. As a consequence, recommended swap space is considered a function of system memory workload, not system memory.
+8th ans)
+The major difference between the BASH and DOS console lies in these 3 areas:
+
+BASH commands are case sensitive while DOS commands are not.
+In BASH, / character is a directory separator and \ acts as an escape character while in  DOS, / serves as a command argument delimiter and \ is the directory separator
+DOS follows a convention in naming files, which is 8 character file name followed by a dot and 3 character for the extension. BASH follows no such convention.
+These are the main difference between DOS and BASH.
+9th ans)
+Open the command line
+Type the following command:
+grep MemTotal /proc/meminfo
+You should see something similar to the following as output:
+MemTotal: 4194304 kB
+This is your total available memory.
+10th ans)
+File Permissions
+All the three owners (user owner, group, others) in the Linux system have three types of permissions defined. Nine characters denotes the three types of permissions.
+
+Read (r) : The read permission allows you to open and read the content of a file. But you can't do any editing or modification in the file.
+Write (w) : The write permission allows you to edit, remove or rename a file. For instance, if a file is present in a directory, and write permission is set on the file but not on the directory, then you can edit the content of the file but can't remove, or rename it.
+Execute (x): In Unix type system, you can't run or execute a program unless execute permission is set.But in Windows, there is no such permission available.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
